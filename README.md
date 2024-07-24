@@ -1,1 +1,3 @@
-# research_progress
+# research progress
+
+Tracking research progress.
