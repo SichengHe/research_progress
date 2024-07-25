@@ -13,11 +13,8 @@
 ### July 17 - 24
 
 * What is new: 
-  * New math, derive equations, $a, b, c, d$.
-    * $\bar{A} = \frac{1}{2}{u_1 v_1^* \bar{\sigma}}^c$
-  * New code (new features added, bug-fix, etc.)
-  * Writing progress (paper writing)
-  * New results (figures)
+  * New math: Derived RAD form for pfpJ - > pfpJ
+  * New code: Almost done with the resolvent vector optimization. 
 
 * What is the roadblock:
 
@@ -25,4 +22,9 @@
   * Task 1: Finish derivation of resolvent vector adjoint (Rbar).
   * Task 2: Aeroelastic simulation different $\alpha,\omega$.
   * Task 3: Rewrite Diff SVD paper. Bring copies to edit.
-  * ...
+  * Task 4: Rewrite resolvent paper added content as per discussion.
+  * Task 5: Rewrite code as per repo guidelines
+ 
+
+## 2024
+### July 24 - 31
