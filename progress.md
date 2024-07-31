@@ -27,7 +27,7 @@
 
 ## 2024
 ### July 24 - 31
-* What is new:
+*** What is new**:
   * Attended workshop on July 25. (DAFOAM). Workshop had lots of researchers from different univs.
   * DA-FOAM session: Key take aways:
     * A common topic of application was ML-"Field Inversion" application to turbulence modeling and prediction accuracy.
@@ -37,3 +37,10 @@
     * Field inversion based ML is now incorporated into the DA FOAM package
     * There are some issues in the compressible flow (supersonic regime and shockwave capture issues)
     * Looks like our class of problems are picking up pace very quickly and we have a great topic to work on
+* **New math**: Resolvent analysis had some issues in the RAD formulae. Will discuss in meeting. These issues were fixed.
+* **New code**: Resolvent opt code was changed because of the RAD formula change. Opt code is complete and can now hande any objective function of interest.
+* **Roadblocks so far**: VS was unable to compile anything when invoking the standar libraries used in MDO-latex repos. Need to see why that is happening.
+* Need time till Friday to complete SVD paper write up (modified write up)
+* Issue with JAX/FD for the pfpu and pfpx step. Skipped this verification step as algorithm is working anyways. This step cannot be verified eitherways as mathematically, pfpx is different from dfdx. FD/CS/JAX will inevitably give us dfdu or dfdx, not pfpu and pfpx. RAD form did not work, maybe I made a mistake in understanding there.
+* Resolvent plot for \alpha and \omega: Laptop kept going out of memory for some reason. Will use the library PC for this today (07/31)
+
