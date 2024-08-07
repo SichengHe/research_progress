@@ -45,7 +45,7 @@
 * Resolvent plot for \alpha and \omega: Laptop kept going out of memory for some reason. Will use the library PC for this today (07/31)
 
 *Plan for week:
- * Finish vector optimization and then plot the optimization result.
+ * Finish vector optimization and then plot the optimization result. **(Add how much was done)**
  * Try to finish the simulation and get \alpha, \omega plot.
  * Push SVD paper final edits to repo.
  * To incorporate the JAX inside RAD step for resolvent.
@@ -60,3 +60,14 @@
    * Issues with simulation. Code keeps crashing when trying to run simulation. Found a work around and need to compute resolvent.
    * SVD paper editing started on Sunday due to VS issues. All data has been transferred to local PC inside VS now.
    * SVD paper reference.bib file was corrupted for some reason, had to manually fix every citation in 56 citations. Need some more time till Friday.
+
+**Plan for next week:**
+
+ * Resolvent multi minima plot (x1,x2, iso f lines)
+ * Latex files for SVD and Resolvent to be pushed asap (Fri)
+ * Re run opt to get less than 1e-16 at least in objective error
+ * Simulation try to use ISAAC and generate \omega + \alpha plots
+ * Get LCO curves for unstedy sims
+ * Generate three plots : LCO plot, resolvent +bifurcation diag
+### Aug 10 - Aug 14
+ * Next week see if we can setup pc in office space.
