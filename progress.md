@@ -44,3 +44,19 @@
 * Issue with JAX/FD for the pfpu and pfpx step. Skipped this verification step as algorithm is working anyways. This step cannot be verified eitherways as mathematically, pfpx is different from dfdx. FD/CS/JAX will inevitably give us dfdu or dfdx, not pfpu and pfpx. RAD form did not work, maybe I made a mistake in understanding there.
 * Resolvent plot for \alpha and \omega: Laptop kept going out of memory for some reason. Will use the library PC for this today (07/31)
 
+*Plan for week:
+ * Finish vector optimization and then plot the optimization result.
+ * Try to finish the simulation and get \alpha, \omega plot.
+ * Push SVD paper final edits to repo.
+ * To incorporate the JAX inside RAD step for resolvent.
+
+## 2024
+### July 31 - Aug 07
+*** What is new**:
+ * Added new maths to resolvent code. Saw an issue with going from complex -> real. Will push the new math to repo.
+ * Finished the vector OPT. Working perfectly now. Only plot is pending.
+ * Fixed VS issues. I am now able to pull/push to repos and also successfully compile any latex document.
+*** Still pending / Roadblocks:
+   * Issues with simulation. Code keeps crashing when trying to run simulation. Found a work around and need to compute resolvent.
+   * SVD paper editing started on Sunday due to VS issues. All data has been transferred to local PC inside VS now.
+   * SVD paper reference.bib file was corrupted for some reason, had to manually fix every citation in 56 citations. Need some more time till Friday.
