@@ -71,3 +71,17 @@
  * Generate three plots : LCO plot, resolvent +bifurcation diag
 ### Aug 10 - Aug 14
  * Next week see if we can setup pc in office space.
+
+## 2024
+### Aug 07 - Aug 21
+**What is new?**
+* Finished SVD vector OPT.
+* Learnt how to write codes in OOP style and push to repo.
+* Pushed final draft code of SVD vector OPT.
+* Obtained visualization for JHTDB. (Video)
+* SVD vector OPT now has JAX implementation.
+
+**Still pending:**
+ *  Simulation try to use ISAAC and generate \omega + \alpha plots
+ * Get LCO curves for unstedy sims
+ * Generate three plots : LCO plot, resolvent +bifurcation diag
